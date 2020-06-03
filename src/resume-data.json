@@ -1,21 +1,183 @@
-{
-  "about-me": {
-      "first-name": "Abhishek",
-      "last-name": "Jaiswal",
-      "location": "4/3/h/46, Bhukailash Road, Kolkata-700023, West Bengal, INDIA",
-      "mobile": "+917799126262",
-      "mobile-display": "+917799126262",
-      "email": "abhishekjaiswal.kol@gmail.com",
-      "website": "jkabhishek.github.io",
-      "github": "jkabhishek",
-      "linkedin": "abhishek-jaiswal",
-      "position": "Solutions Architect · Python · DevOps · Infrastructure · Cloud · Testing"
-  },
-  "summary":{
-    "list-items": [
-    "9+ years experience specializing in backend/infrastructure, web development and computer security. Super nerd who loves Sublime, Vim, Linux and OS X and enjoys to customize all of the development environment. Interested in devising a better problem-solving method for challenging tasks, and learning new technologies and tools if the need arises.",
-    "3+ years of experience in Openstack support and writing infrastructure as a code using ansible and python, working knowledge of container and kubernetes",
-    "2+ years of experience in Automation Testing for large scale instrastructure, using tempest, sonobuoy."
+  {
+    "about-me": {
+        "first-name": "Abhishek",
+        "last-name": "Jaiswal",
+        "location": "4/3/h/46, Bhukailash Road, Kolkata-700023, West Bengal, INDIA",
+        "mobile": "+917799126262",
+        "mobile-display": "+917799126262",
+        "email": "abhishekjaiswal.kol@gmail.com",
+        "website": "jkabhishek.github.io",
+        "github": "jkabhishek",
+        "linkedin": "abhishek-jaiswal",
+        "position": "Solutions Architect · Python · DevOps · Infrastructure · Cloud · Testing"
+    },
+    "summary":{
+      "list-items": [
+      "9+ years experience specializing in backend/infrastructure, web development and computer security. Super nerd who loves Sublime, Vim, Linux and OS X and enjoys to customize all of the development environment. Interested in devising a better problem-solving method for challenging tasks, and learning new technologies and tools if the need arises.",
+      "3+ years of experience in Openstack support and writing infrastructure as a code using ansible and python, working knowledge of container and kubernetes",
+      "2+ years of experience in Automation Testing for large scale instrastructure, using tempest, sonobuoy."
+      ]
+    },
+    "skills": [
+      {
+        "heading": "Thorough knowledge of ",
+        "list-items": [
+          "Python",
+          "Ansible",
+          "Openstack",
+          "Teraform",
+          "PHP",
+          "Javascript"
+        ]
+      },
+      {
+        "heading": "adept at frameworks like",
+        "list-items": [
+          "django / djangorestframework",
+          "webpy",
+          "flask"
+        ]
+      },
+      {
+        "heading": "Technically sound with",
+        "list-items": [
+            "Linux",
+            "Docker",
+            "Kubernetes",
+            "Networking",
+            "DevOps Tools"
+        ]
+      },
+      {
+        "heading": "Adept with tools and utilities like",
+        "list-items": [
+          "Visual Code",
+          "Pycharm",
+          "Vim",
+          "Eclipse",
+          "Iterm",
+          "JSON",
+          "XML",
+          "LaTeX",
+          "HTML / CSS3",
+          "YAML"
+        ]
+      },
+      {
+        "heading": "Adroit with source code management using",
+        "list-items": [
+          "Git",
+          "svn",
+          "gerrit"
+        ]
+      },
+      {
+        "heading": "Proficient in Operating Sytem like",
+        "list-items": [
+          "Windows xp/7/8/10",
+          "Ubuntu",
+          "OSX"
+        ]
+      }
+    ],
+    "education": [
+      {
+          "study": "Master Of Computer Application (MCA)",
+          "gpa":"",
+          "institution": "Institute Of Engineering & management",
+          "location": "Kolkata, WestBengal, INDIA",
+          "date-range": "2009 - 2011",
+          "active": true,
+          "list-items": [
+            "Major in Computer Applications"
+          ]
+      },
+      {
+        "study": "Bachelor Of Computer Application (BCA)",
+        "institution": "Acharya Institute of Management & Sciences, Bangalore University,",
+        "location": "Bangalore, Karnatka, INDIA",
+        "date-range": "2006 - 2009",
+        "gpa": "",
+        "active": false,
+        "list-items": [
+          "Major in Computer Applications"
+        ]
+      }
+    ],
+    "experience": [
+      {
+        "title": "Solutions Architect [Python/Devops/Testing]",
+        "institution": "Ericsson India",
+        "location": "Kolkata, West Bengal, INDIA",
+        "date-range": "Sep, 2018 - Present",
+        "active": true,
+        "list-items": [
+          "Working on different projects on NFVI, Openstack, Kubernetes",
+          "Implemented Sonobuoy Testing Framework with additional capablities using python unittests .",
+          "Working as a lead Contributer for a major American telco operator's cloud platform",
+          "Worked on several POC projects in Docker, Kubernetes, ansible, focusing on high-availability, fault tolerance, and auto-scaling.",
+          "Completion of comprehensive GIS curriculum consisting of necessary geospatial skills.",
+          "Assisting the director of the county GIS office with current data maintenance workflows.",
+          "Examining workflows where automation can assist in improving productivity and reducing error."
+        ],
+        "website": "https://www.ericsson.com/"
+      },
+      {
+        "title": "Software Engineer III [Python/Devops]",
+        "institution": "Terdata Labs",
+        "location": "Hyderabad, Telangana, INDIA",
+        "date-range": "Apr, 2018 - Sep, 2018",
+        "active": false,
+        "list-items": [
+          "Implemented python based web app to cater different needs .",
+          "Implemented ELK Automation on ansible to add n host for monitoring. ",
+          "Worked on writing Vagrant files for different application ",
+          "Worked on several POC projects in Docker, Kubernetes, ansible, focusing on high-availability, fault tolerance, and auto-scaling. "
+        ],
+        "website": "https://www.teradata.com/"
+      },
+      {
+        "title": "Senior Software Engineer [Python]",
+        "institution": "Pramati Technologies",
+        "location": "Hyderabad, Telangana, INDIA",
+        "date-range": "Apr, 2015 - Mar, 2018",
+        "active": false,
+        "list-items": [
+          "Implemented djangorest framework RESTful API server for internal projects.",
+          "Implemented Data driven Framework in python/djangorestframework frontend/backend. ",
+          "Worked on Automation Framework in Ansible to deploy Openstack for one of the largest Telecom Provider. ",
+          "Worked on several POC projects in Docker, Kubernetes, ansible, focusing on high-availability, fault tolerance, and auto-scaling. ",
+          "Developed an easy-to-use Payment module which connects to major PG(Payment Gateway)."
+        ],
+        "website": "https://www.pramati.com/"
+      },
+      {
+        "title": "Software Engineer [Python]",
+        "institution": "MindFire Solutions",
+        "location": "Bhubaneswar, Orrisa, INDIA",
+        "date-range": "Nov. 2012 - Apr. 2015",
+        "active": false,
+        "list-items": [
+          "Worked on several Odoo (formerly openerp) projects.",
+          "Worked on Customized ERP Application for Custom Brokerage and warehousing using odoo framework in python.",
+          "Worked on Web based ERP Solutions for Importers and Exporters using PHP, EXTjs, Mysql.",
+          "Written cli app in python for administration of aws accounts for different application (ease of use)",
+          "Worked Several Internal projects for API based Reporting like number of contribution. code quality etc "
+        ],
+        "website": "https://www.mindfiresolutions.com/"
+      },
+      {
+        "title": "Web Engineer  [PHP]",
+        "institution": "Acumen Consultancy PvtLtd",
+        "location": "Kolkata, WestBengal,  INDIA",
+        "date-range": "Jun, 2010 - Nov. 2012",
+        "active": false,
+        "list-items": [
+          "Worked on IMS-Pharmastat, web based CMS using PHP (Codeigniter), Javascript, Mysql. (http://imspharmastat.fr/)",
+          "Worked on UBI-France, Web Based Doctor Directory Listing using PHP (Codeigniter), Javascript, Mysql..",
+          "Worked on Open2leads, Question and Answer Forum for B2B with social-networking features, Using  PHP (symfony), JavaScript, MySQL."
+        ],
+        "website": "https://www.mindfiresolutions.com/"
+      }
     ]
   }
-}
