@@ -38,6 +38,20 @@
                 </div>
             </section>
 
+            <section class="skills">
+                <div class="section__heading">
+                    <h1>Skills</h1>
+                    <span class="section__heading-underline"></span>
+                </div>
+                {{#skills}}
+                    <div class="row">
+                        <div class="column left">{{heading}}</div>
+                        <div class="column right">
+                            {{#list-items}} <span>{{.}},</span> {{/list-items}}
+                        </div>
+                    </div>
+                {{/skills}}
+            </section>
         </div>
      </div>
 </body>

@@ -54,6 +54,27 @@ body {
   align-items: stretch;
   justify-content: stretch; }
 
+.column {
+  float: left;
+  font-size: 0.7rem; }
+
+.left {
+  width: 30%;
+  text-align: right;
+  font-style: italic; }
+
+.right {
+  width: 60%;
+  text-align: left;
+  padding-left: 0.7em;
+  font-weight: bold; }
+
+/* Clear floats after the columns */
+.row:after {
+  content: "";
+  display: table;
+  clear: both; }
+
 .page-break {
   display: none; }
 
@@ -107,7 +128,6 @@ section {
       margin-left: 0.3em; }
   section .section__summary {
     font-size: 0.7rem;
-    font-weight: 500;
     color: #5D5D5D; }
     section .section__summary > div {
       width: 100%;
