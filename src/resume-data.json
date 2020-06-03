@@ -179,5 +179,97 @@
         ],
         "website": "https://www.mindfiresolutions.com/"
       }
+    ],
+    "projects": [
+      {
+        "title": "Network Cloud",
+        "description": "Desc",
+        "stack": "Tech Stack: Kubernetes, Python, Bandit, Jenkins, Openstack, Sonobuoy, Shaker, Tempest",
+        "date-range": "",
+        "list-items": [
+          "Openstack Development for in house reuirements",
+          "Writing Tempest Test case",
+          "Writing Sonobuoy Test case to do Conformance Test for kubernetes Cluster",
+          "Working with Architect and Scrum Mater for Scrum Ceremonies, Backlog etc",
+          "Writing Helm chart, Grovvy files for deployment and gating job for jenkins",
+          "Airship Components testing"
+        ]
+      },
+      {
+        "title": "AIC (AT&T Integrated Cloud) Security Scrum",
+        "description": "Desc",
+        "stack": "Tech Stack: Ansible, Python, Bandit, Pentest, Sensage, Foreman,OWASP, MetaSploit",
+        "date-range": "",
+        "list-items": [
+          "Analysis and Scope Various Security related vulnerabilities in the Platform",
+          "Some of them are SSL related vulnerabilities (week ssl cipher).",
+          "Implement Proper User Access Management using AT&T’s own tool called UAM",
+          "perform series of checks for known/reported vulnerabilities such as Meltdown and Spectre, shellshock",
+          "DNS Bind server vulnerabilities etc"
+        ]
+      },
+      {
+        "title": "WebApp for Automation Support",
+        "description": "Desc",
+        "stack": "Tech Stack: Python, Django, PGSQL, AngularJS, Ansible, Shell, Docker",
+        "date-range": "",
+        "list-items": [
+          "Python Django Web based Application",
+          "Data gatehering tool for large scale Openstack Deployment",
+          "handled various security related vulnerabilities like Cross site scripting (XSS) protection",
+          "Cross site request forgery (CSRF) protection, SQL injection protection Clickjacking protection",
+          "Host header validation, Session security"
+        ]
+      },
+      {
+        "title": "Shipment Module for Openerp",
+        "description": "Desc",
+        "stack": "Tech Stack: Python, Openerp, PGSQL",
+        "date-range": "",
+        "list-items": [
+          "Python Odoo based Application",
+          "Online Customized ERP Application for Importers and Exporters",
+          "Team Lead, Database, code reviews, test plan and test case Deployment, Maintenance",
+          "End to end Responsiblity from Gathering requirements to deploying on aws server"
+        ]
+      }
+    ],
+    "achievements":[
+      {
+        "organization": "https://www.redhat.com/rhtapps/certification/verify/?certId=160-236-972",
+        "role": "RED HAT CERTIFIED SYSTEM ADMINISTRATOR IN RED HAT OPENSTACK",
+        "location": "",
+        "date-range": "2016"
+      },
+      {
+        "organization": "https://www.udemy.com/certificate/UC-L2FLIMPW/",
+        "role": "Learn DevOps: The Complete Kubernetes",
+        "location": "",
+        "date-range": "2017"
+      },
+      {
+        "organization": "ClientCandidateID=ZEND023657",
+        "role": "Zend Certified Php5 Developer",
+        "location": "",
+        "date-range": "2012"
+      },
+      {
+        "organization": "Microsoft Certification ID:  9784595",
+        "role": "Microsoft Certified Developer",
+        "location": "",
+        "date-range": "2012"
+      },
+      {
+        "organization": "",
+        "role": "certified in ERP-Essential (Microsoft Dynamics)",
+        "location": "",
+        "date-range": "2012"
+      },
+      {
+        "organization": "",
+        "role": "College Festival Organizer",
+        "location": "",
+        "date-range": "2007"
+      }
     ]
   }
