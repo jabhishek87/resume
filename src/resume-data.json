@@ -1,0 +1,21 @@
+{
+  "about-me": {
+      "first-name": "Abhishek",
+      "last-name": "Jaiswal",
+      "location": "4/3/h/46, Bhukailash Road, Kolkata-700023, West Bengal, INDIA",
+      "mobile": "+917799126262",
+      "mobile-display": "+917799126262",
+      "email": "abhishekjaiswal.kol@gmail.com",
+      "website": "jkabhishek.github.io",
+      "github": "jkabhishek",
+      "linkedin": "abhishek-jaiswal",
+      "position": "Solutions Architect · Python · DevOps · Infrastructure · Cloud · Testing"
+  },
+  "summary":{
+    "list-items": [
+    "9+ years experience specializing in backend/infrastructure, web development and computer security. Super nerd who loves Sublime, Vim, Linux and OS X and enjoys to customize all of the development environment. Interested in devising a better problem-solving method for challenging tasks, and learning new technologies and tools if the need arises.",
+    "3+ years of experience in Openstack support and writing infrastructure as a code using ansible and python, working knowledge of container and kubernetes",
+    "2+ years of experience in Automation Testing for large scale instrastructure, using tempest, sonobuoy."
+    ]
+  }
+}

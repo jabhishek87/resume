@@ -1,0 +1,44 @@
+<html>
+<head>
+    {{#about-me}}
+    <title>Resume of {{first-name}} {{last-name}}</title>
+    <meta charset="UTF-8">
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.12.0-2/js/all.min.js"></script>
+    <link rel="stylesheet" type="text/css" href="css/style.css" />
+</head>
+<body>
+     <div id="document">
+        <div class="page">
+            <header class="about-me">
+                <h1 class="about-me__name">{{first-name}} <span class="about-me__last-name">{{last-name}}</span></h1>
+                <h6 class="about-me__position">{{position}}</h6>
+                <h6 class="about-me__address">{{location}}</h6>
+                <span class="about-me__social">
+                    <h6><a href="tel:{{mobile}}"><i class="fa fa-phone"></i>{{mobile-display}}</a></h6>
+                    <h6><a href="mailto:{{email}}"><i class="fa fa-envelope"></i>{{email}}</a></h6>
+                    <h6><a href="https://github.com/{{github}}"><i class="fab fa-github"></i>{{github}}</a></h6>
+                    <h6><a href="https://www.linkedin.com/in/{{linkedin}}"><i class="fab fa-linkedin"></i>{{linkedin}}</a></h6>
+                </span>
+            </header>
+            {{/about-me}}
+
+            <section class="summary">
+                <div class="section__heading">
+                    <h1>Summary</h1>
+                    <span class="section__heading-underline"></span>
+                </div>
+                {{#summary}}
+                     <div class="section__summary">
+                        {{#list-items}}
+                            <div>{{.}}</div>
+                        {{/list-items}}
+                    </div>
+                {{/summary}}
+                <div>
+                </div>
+            </section>
+
+        </div>
+     </div>
+</body>
+</html>
